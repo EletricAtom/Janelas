@@ -1,0 +1,14 @@
+    QRCODE
+    Para adicionar um QRCODE basta inserir o nome do produto que se deseja adicionar. Caso o produsto já exista
+ele não será adicionado e surge um pequena notificação indicando a existencia do produto.
+    É possível adicionar uma lista de produtos, para isso basta clicar em abrir e adicionar um arquivo formatado.
+A formatação do arquivo deverá conter o nome dos produtos entre ':' exemplo:
+    arroz:feijão:café:açucar: ...etc
+
+    É possível ainda pesquisar um produto existente, basta clicar em buscar.
+
+    BARCODE
+    O Procedimento para a criação e busca de um codigo de barras é o mesmo para o QRCODE, porém o codigo deve ser
+adicionado em ID.
+    O formato padrao do BARCODE e um codigo no qual o id do produto deverá conter 12 digitos, e o decimo terceiro 
+digito é do padrão EAN13 ele será gerado pelo software.
